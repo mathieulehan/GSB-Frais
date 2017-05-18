@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            >
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/frameLayout">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imgView"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/frameLayout"
+                android:layout_toEndOf="@+id/frameLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/nom"
+                    android:textColor="@color/background_floating_material_dark"
+                    android:textSize="18dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/libelle"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="4dp"
+
+                    android:textColor="#4d4c4c" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/adresse"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="4dp"
+                    android:textColor="#4d4c4c"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/ville"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="4dp"
+
+                    android:textColor="#4d4c4c"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/coef"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="4dp"
+
+                    android:textColor="#4d4c4c"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/num"
+                    android:paddingLeft="30dp"
+                    android:textColor="#4d4c4c"
+                    android:paddingBottom="4dp"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
